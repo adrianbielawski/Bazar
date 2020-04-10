@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="./assets/fonts/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900" rel="stylesheet">
+  <link href="./assets/images/mini-logo.png" rel="shortcut icon">
+  <title>Bazar</title>
+</head>
+
+<body>
+  <header>
+    <div class="top">
+      <div class="top-grid">
+        <ul class="country">
+          <li>USD <i class="fas fa-sort-down"></i></li>
+          <li class="language">English <i class="fas fa-sort-down"></i></li>
+          <li >Help <i class="fas fa-sort-down"></i></li>
+        </ul>
+        <ul class="account">
+          <li><i class="fas fa-user"></i> Login</li>
+          <li class="register"><i class="fas fa-lock"></i> Register</li>
+          <li class="menu"><i class="fas fa-bars"></i></li>
+        </ul>
+      </div>
+    </div>
+    <div class="middle">
+      <div class="middle-grid">
+        <div class="phone">
+          <i class="fas fa-mobile-alt"></i>
+          <span>2300 - 3560 - 222</span>
+        </div>
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/logo.png"></a>
+        </div>
+        <div class="basket">
+          <i class="fas fa-shopping-basket"></i>
+          <span><p>0</p></span>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="bottom-grid">
+        <div class="search">
+          <div class="menu-icon"><i class="fas fa-list-ul"></i></div>
+          <select id="category" name="fdg">
+            <option value="" selected disabled hidden>Select a category</option>
+            <option value="category-1">Category 1</option>
+            <option value="category-2">Category 2</option>
+            <option value="category-3">Category 3</option>
+            <option value="category-4">Category 4</option>
+          </select>
+          <input id="search" type="search" placeholder="Search products...">
+          <input id="submit" type="submit" value="">
+          <div class="search-icon"><i class="fas fa-search"></i></div>
+        </div>
+        <div class="menu">
+            <div class="active"><a href="index.html">Home</a></div>
+            <div><a href="./furniture/furniture.html">Furnitures</a></div>
+            <div><a href="chair.html">Chair</a></div>
+            <div><a href="table.html">Table</a></div>
+            <div><a href="sofa.html">Sofa</a></div>
+            <div><a href="blog.html">Blog</a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <div class="deals">
+      <div class="hot-deals">
+        <div class="head">
+          <p>Hot deals</p>
+          <div class="menu-circles">
+            <div class="active"></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="button">
+          <div class="add-to-cart">
+            <i class="fas fa-shopping-basket"></i>
+            <p> Add to cart</p>
+          </div>
+        </div>
+        <div class="deal-time">
+          <div class="timer">
+            <div>
+              <p class="number">25</p>
+              <p>days</p>
+            </div>
+            <div>
+              <p class="number">10</p>
+              <p>hrs</p>
+            </div>
+            <div>
+              <p class="number">45</p>
+              <p>min</p>
+            </div>
+            <div>
+              <p class="number">30</p>
+              <p>secs</p>
+            </div>
+          </div>
+        </div>
+        <div class="products-info">
+          <div class="name">
+            <p><strong>Aenean Ru Bristique</strong></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="options">
+              <div><i class="far fa-eye"></i></div>
+              <div><i class="far fa-heart"></i></div>
+              <div><i class="fas fa-exchange-alt"></i></div>
+            </div>
+            <div class="price">
+              <p class="discount-price">$350.00</p>
+              <p class="current-price">$300.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="http://placekitten.com/360/285">
+        </div>
+      </div>
+      <div class="deals-slider">
+        <div class="furniture-sale">
+        </div>
+        <div class="description">          
+          <h1><span>Indoor</span> furniture</h1>
+          <p>Save up to 50% of all furniture</p>
+        </div>
+        <button>shop now</button>
+        <div class="arrows">
+          <div class="left">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="right">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="http://placekitten.com/750/500" alt="furniture sale">
+        </div>
+      </div>
+    </div>
+    <div class="info-box">
+      <div class="info">
+        <a href="#" class="icon">
+          <i class="fas fa-truck"></i>
+        </a>
+        <a href="#" class="box">
+          <span class="strong">free shipping</span>
+          <span>all order</span>
+        </a>
+      </div>
+      <div class="info">
+        <a href="#" class="icon">
+          <i class="fas fa-headphones-alt"></i>
+        </a>
+        <a href="#" class="box">
+          <span class="strong">24/7 customer</span>
+          <span>support</span>
+        </a>
+      </div>
+      <div class="info">
+        <a href="#" class="icon">
+          <i class="fas fa-reply-all"></i>
+        </a>
+        <a href="#" class="box">
+          <span class="strong">money back</span>
+          <span>guarantee</span>
+        </a>
+      </div>
+      <div class="info">
+        <a href="#" class="icon">
+          <i class="fas fa-bullhorn"></i>
+        </a>
+        <a href="#" class="box">
+          <span class="strong">member discount</span>
+          <span>first order</span>
+        </a>
+      </div>
+    </div>
+    <div class="promo">
+      <div class="large">
+        <div class="cover">
+        </div>
+        <div class="description">
+          <span>guest room</span>
+          <span class="strong">sofa</span>
+          <span class="percentage">-20%</span>
+        </div>
+        <div class="image">
+          <img src="http://placekitten.com/600/600">
+        </div>
+      </div>
+      <div class="small-top">
+        <div class="description">
+          <h1>office <span>chair</span></h1>
+          <h2>collection</h3>
+          <h3 class="price">$200.00</h3>
+        </div>
+        <div class="image">
+          <img src="http://placekitten.com/600/300">
+        </div>
+      </div>
+      <div class="small-bottom">
+        <div class="description">
+          <h1><span>special</span> collection</h1>
+          <h2>save up 45% of furniture</h2>
+        </div>
+        <div class="image">
+          <img src="http://placekitten.com/700/300">
+        </div>
+      </div>
+    </div>
+    <div class="new-furniture-title">
+      <div class="article-title">
+        <div class="underline-title">
+          <h1>new furniture</h1>
+          <div class="menu">
+            <ul>
+              <li><a href="#">Bed</a></li>
+              <li class="active"><a href="#">Chair</a></li>
+              <li><a href="#">Sofa</a></li>
+              <li><a href="#">Table</a></li>
+              <li><a href="#">Dining</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="menu-circles">
+        <div></div>
+        <div class="active"></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="new-furniture">
+      <div class="item-1">
+        <div class="image">
+          <div class="top">
+            <div class="sale-icon">
+              <div class="sale">
+                <p>sale</p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="quick-view">
+              <p>Quick View</p>
+            </div>
+            <div class="add-to-cart">
+              <i class="fas fa-shopping-basket"></i>
+              <p> Add to cart</p>
+            </div>
+          </div>
+          <div class="img">
+            <img src="http://placekitten.com/50/50">
+          </div>
+        </div>
+        <div class="products-info">
+          <div class="name">
+            <p><strong>Aenean Ru Bristique</strong></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="options">
+              <div><i class="far fa-heart"></i></div>
+              <div><i class="fas fa-exchange-alt"></i></div>
+            </div>
+            <div class="price">
+              <p class="discount-price">$350.00</p>
+              <p class="current-price">$300.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item-2">
+        <div class="image">
+          <div class="top">
+            <div class="sale-icon">
+              <div class="sale">
+                <p>sale</p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="quick-view">
+              <p>Quick View</p>
+            </div>
+            <div class="add-to-cart">
+              <i class="fas fa-shopping-basket"></i>
+              <p> Add to cart</p>
+            </div>
+          </div>
+          <div class="img">
+            <img src="http://placekitten.com/50/50">
+          </div>
+        </div>
+        <div class="products-info">
+          <div class="name">
+            <p><strong>Aenean Ru Bristique</strong></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="options">
+              <div><i class="far fa-heart"></i></div>
+              <div><i class="fas fa-exchange-alt"></i></div>
+            </div>
+            <div class="price">
+              <p class="discount-price">$350.00</p>
+              <p class="current-price">$300.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item-3">
+        <div class="image">
+          <div class="top">
+            <div class="sale-icon">
+              <div class="sale">
+                <p>sale</p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="quick-view">
+              <p>Quick View</p>
+            </div>
+            <div class="add-to-cart">
+              <i class="fas fa-shopping-basket"></i>
+              <p> Add to cart</p>
+            </div>
+          </div>
+          <div class="img">
+            <img src="http://placekitten.com/300/400">
+          </div>
+        </div>
+        <div class="products-info">
+          <div class="name">
+            <p><strong>Aenean Ru Bristique</strong></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="options">
+              <div><i class="far fa-heart"></i></div>
+              <div><i class="fas fa-exchange-alt"></i></div>
+            </div>
+            <div class="price">
+              <p class="current-price">$300.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item-4">
+        <div class="image">
+          <div class="top">
+            <div class="sale-icon">
+              <p>sale</p>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="quick-view">
+              <p>Quick View</p>
+            </div>
+            <div class="add-to-cart">
+              <i class="fas fa-shopping-basket"></i>
+              <p> Add to cart</p>
+            </div>
+          </div>
+          <div class="img">
+            <img src="http://placekitten.com/300/400">
+          </div>
+        </div>
+        <div class="products-info">
+          <div class="name">
+            <p><strong>Aenean Ru Bristique</strong></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="options">
+              <div><i class="far fa-heart"></i></div>
+              <div><i class="fas fa-exchange-alt"></i></div>
+            </div>
+            <div class="price">
+              <p class="discount-price">$350.00</p>
+              <p class="current-price">$300.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item-5">
+        <div class="image">
+          <div class="top">
+            <div class="sale-icon">
+              <div class="sale">
+                <p>sale</p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="quick-view">
+              <p>Quick View</p>
+            </div>
+            <div class="add-to-cart">
+              <i class="fas fa-shopping-basket"></i>
+              <p> Add to cart</p>
+            </div>
+          </div>
+          <div class="img">
+            <img src="http://placekitten.com/300/400">
+          </div>
+        </div>
+        <div class="products-info">
+          <div class="name">
+            <p><strong>Aenean Ru Bristique</strong></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="options">
+              <div><i class="far fa-heart"></i></div>
+              <div><i class="fas fa-exchange-alt"></i></div>
+            </div>
+            <div class="price">
+              <p class="discount-price">$350.00</p>
+              <p class="current-price">$300.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item-6">
+        <div class="image">
+          <div class="top">
+            <div class="sale-icon">
+              <p>sale</p>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="quick-view">
+              <p>Quick View</p>
+            </div>
+            <div class="add-to-cart">
+              <i class="fas fa-shopping-basket"></i>
+              <p> Add to cart</p>
+            </div>
+          </div>
+          <div class="img">
+            <img src="http://placekitten.com/300/400">
+          </div>
+        </div>
+        <div class="products-info">
+          <div class="name">
+            <p><strong>Aenean Ru Bristique</strong></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="options">
+              <div><i class="far fa-heart"></i></div>
+              <div><i class="fas fa-exchange-alt"></i></div>
+            </div>
+            <div class="price">
+              <p class="discount-price">$350.00</p>
+              <p class="current-price">$300.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item-7">
+        <div class="image">
+          <div class="top">
+            <div class="sale-icon">
+              <div class="sale">
+                <p>sale</p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="quick-view">
+              <p>Quick View</p>
+            </div>
+            <div class="add-to-cart">
+              <i class="fas fa-shopping-basket"></i>
+              <p> Add to cart</p>
+            </div>
+          </div>          
+          <div class="img">
+              <img src="http://placekitten.com/300/400">
+            </div>
+        </div>
+        <div class="products-info">
+          <div class="name">
+            <p><strong>Aenean Ru Bristique</strong></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="options">
+              <div><i class="far fa-heart"></i></div>
+              <div><i class="fas fa-exchange-alt"></i></div>
+            </div>
+            <div class="price">
+              <p class="discount-price">$350.00</p>
+              <p class="current-price">$300.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item-8">
+        <div class="image">
+          <div class="top">
+            <div class="sale-icon">
+              <p>sale</p>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="quick-view">
+              <p>Quick View</p>
+            </div>
+            <div class="add-to-cart">
+              <i class="fas fa-shopping-basket"></i>
+              <p> Add to cart</p>
+            </div>
+          </div>
+          <div class="img">
+            <img src="http://placekitten.com/300/400">
+          </div>
+        </div>
+        <div class="products-info">
+          <div class="name">
+            <p><strong>Aenean Ru Bristique</strong></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="options">
+              <div><i class="far fa-heart"></i></div>
+              <div><i class="fas fa-exchange-alt"></i></div>
+            </div>
+            <div class="price">
+              <p class="discount-price">$350.00</p>
+              <p class="current-price">$300.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="furniture-gallery">
+      <div class="underline-title">
+        <h1>furniture gallery</h1>
+      </div>
+      <div class="ad">
+        <div class="img">
+          <img src="http://placekitten.com/700/700">
+        </div>
+        <div class="description">
+          <p class="p1"><span>from</span> $50.80</p>
+          <p class="p2">Bedroom Bed</p>
+          <a href="#">shop now</a>
+        </div>
+      </div>
+      <div class="gallery-slider">
+        <div class="tabs">
+          <div class="tab-1">
+            <p>featured</p>
+          </div>
+          <div class="tab-2">
+            <p>top seller<p>
+          </div>
+          <div class="tab-3">
+            <p>sale off</p>
+          </div>
+          <div class="tab-4">
+            <p>top rated</p>
+          </div>
+        </div>
+        <div class="image">
+          <div class="options">
+            <div>
+              <i class="far fa-heart"></i>
+              <p class="add-to-wishlist">Add to wishlist</p>          
+            </div>    
+            <div>
+              <i class="fas fa-exchange-alt"></i>
+              <p class="add-to-compare">Add to compare</p>
+            </div>
+            <div>
+              <i class="far fa-eye"></i>
+              <p class="quick-view-icon">Quick view</p>         
+            </div>
+            <div>
+              <i class="fas fa-shopping-basket"></i>              
+              <p class="add-to-basket">Add to basket</p>     
+            </div>
+          </div>
+          <div class="price-name">
+            <div class="price">
+              <p class="current">$120.00</p>
+              <p class="old">$160.00</p>
+            </div>
+            <div class="name">
+              <p><strong>Aenean Ru Bristique</strong></p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>              
+            </div>
+          </div>
+          <div class="img">
+            <img src="http://placekitten.com/300/700">
+          </div>
+        </div>
+        <div class="small-slider">
+          <div class="arrow-left">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="arrow-right">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="mini-img-1">
+            <div class="img">
+              <img src="http://placekitten.com/100/100">
+            </div>
+          </div>
+          <div class="mini-img-2">
+            <div class="img">
+              <img src="http://placekitten.com/100/100">
+            </div>
+          </div>
+          <div class="mini-img-3">
+            <div class="img">
+              <img src="http://placekitten.com/100/100">
+            </div>
+          </div>
+          <div class="mini-img-4">
+            <div class="img">
+              <img src="http://placekitten.com/100/100">
+            </div>
+          </div>
+          <div class="mini-img-5">
+            <div class="img">
+              <img src="http://placekitten.com/100/100">
+            </div>
+          </div>
+          <div class="mini-img-6">
+            <div class="img">
+              <img src="http://placekitten.com/100/100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="latest-blog">
+      <div class="article-title">
+        <div class="underline-title">
+          <h1>latest blog</h1>
+        </div>
+      </div>
+      <div class="menu-circles">
+        <div></div>
+        <div></div>
+        <div class="active"></div>
+      </div>
+      <div class="blog">
+        <div class="article-1">
+          <div class="img">
+            <img src="http://placekitten.com/400/400">
+          </div>
+          <div class="post">
+            <div class="date">
+              <i class="fas fa-calendar-alt"></i>
+              <p>05 DEC 2019</p>
+            </div>
+            <div class="comments">
+              <i class="fas fa-comments"></i>
+              <p> 123 Comments</p>
+            </div>
+            <div class="essence">
+              <h3>products that fight static</h3>
+              <p>Aliquam dictum pellentesque nibh sit amet dapibus. Vivamus egetAliquam dictum pellentesque nibh sit amet dapibus. Vivamus egetAliquam dictum pellentesque nibh sit amet dapibus. Vivamus egetAliquam dictum pellentesque nibh sit amet dapibus. Vivamus egetAliquam dictum pellentesque nibh sit amet dapibus. Vivamus egetAliquam dictum pellentesque nibh sit amet dapibus. Vivamus eget</p>
+            </div>
+            <div class="read-more">
+              <p>Read More</p>
+            </div>
+          </div>
+        </div>
+        <div class="article-2">
+          <div class="img">
+            <img src="http://placekitten.com/400/500">
+          </div>
+          <div class="post">
+            <div class="date">
+              <i class="fas fa-calendar-alt"></i>
+              <p>05 DEC 2019</p>
+            </div>
+            <div class="comments">
+              <i class="fas fa-comments"></i>
+              <p> 123 Comments</p>
+            </div>
+            <div class="essence">
+              <h3>products that fight static</h3>
+              <p>Aliquam dictum pellentesque nibh sit amet dapibus. Vivamus egetAliquam dictum pellentesque nibh sit amet dapibus. Vivamus egetAliquam dictum pellentesque nibh sit amet dapibus. Vivamus eget</p>
+            </div>
+            <div class="read-more">
+              <p>Read More</p>
+            </div>
+          </div>
+        </div>
+        <div class="article-3">
+          <div class="img">
+            <img src="http://placekitten.com/400/450">
+          </div>
+          <div class="post">
+            <div class="date">
+              <i class="fas fa-calendar-alt"></i>
+              <p>05 DEC 2019</p>
+            </div>
+            <div class="comments">
+              <i class="fas fa-comments"></i>
+              <p> 123 Comments</p>
+            </div>
+            <div class="essence">
+              <h3>products that fight static</h3>
+              <p>Aliquam dictum pellentesque nibh sit amet dapibus. Vivamus egetAliquam dictum pellentesque nibh sit amet dapibus. Vivamus egetAliquam dictum pellentesque nibh sit amet dapibus. Vivamus eget</p>
+            </div>
+            <div class="read-more">
+              <p>Read More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>            
+    <div class="brands-slider">
+      <div class="arrow-left">
+        <i class="fas fa-chevron-left"></i>
+      </div>
+      <div class="brand-1">
+        <div class="img">
+          <img src="./assets/images/brand-1.png">
+        </div>
+      </div>
+      <div class="brand-2">
+        <div class="img">
+          <img src="./assets/images/brand-2.png">
+        </div>
+      </div>
+      <div class="brand-3">
+        <div class="img">
+          <img src="./assets/images/brand-3.png">
+        </div>
+      </div>
+      <div class="brand-4">
+        <div class="img">
+          <img src="./assets/images/brand-4.png">
+        </div>
+      </div>
+      <div class="brand-5">
+        <div class="img">
+          <img src="./assets/images/brand-5.png">
+        </div>
+      </div>
+      <div class="brand-6">
+        <div class="img">
+          <img src="./assets/images/brand-6.png">
+        </div>
+      </div>
+      <div class="arrow-left">
+        <i class="fas fa-chevron-right"></i>
+      </div>
+    </div>
+    <div class="feedback">    
+      <div class="article-title">
+        <div class="underline-title">
+          <h1>Client feedback</h1>
+        </div>
+      </div>
+      <div class="menu-circles">
+        <div class="active"></div>
+        <div></div>
+        <div></div>
+      </div>
+      <blockquote>
+        <div class="quote-icon">
+          <i class="fas fa-quote-right"></i>
+        </div>
+        <div class="quote">
+          <p>Consetetur sadmpor invi Consetetur sadipscing elitr, sed diam nonumy Consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviConsetetur sadipscing elitr, sed diam nonumy eirmod tempor invi</p>
+        </div>
+        <div class="author">
+          <div class="img">
+            <img src="http://placekitten.com/100/100">
+          </div>
+          <div class="author-name">
+            <p class="name">John Smith</p>
+            <p>furniture client</p>
+          </div>
+        </div>
+      </blockquote>
+    </div>
+  </div>  
+  <footer>
+    <div class="grid-menu">
+      <div class="menu">
+        <div class="informanion">
+          <h1>informanion</h1>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Conditions</a></li>
+            <li><a href="#">Online support</a></li>
+          </ul>
+        </div>
+        <div class="my-account">
+          <h1>my - account</h1>
+          <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">My cart</a></li>
+            <li><a href="#">Whishlist</a></li>
+            <li><a href="#">Checkout</a></li>
+          </ul>
+        </div>
+        <div class="info">
+          <h1>info</h1>
+          <ul>
+            <li><a href="#">Specials</a></li>
+            <li><a href="#">New products</a></li>
+            <li><a href="#">Best sellers</a></li>
+            <li><a href="#">Our stores</a></li>
+          </ul>
+        </div>
+        <div class="orders">
+          <div>
+            <h1>orders</h1>
+            <ul>
+              <li><a href="#">Payment options</a></li>
+              <li><a href="#">Shipping and delivery</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Shipping</a></li>
+            </ul>
+            <div class="image">
+              <img src="./assets/images/payments.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-copyright">
+      <div class="grid">
+        <div class="copyright">
+          <p>&copy; Copyright 2019 Bazar | All Rights Reserved</p>
+        </div>
+        <div class="social">
+          <ul>
+            <li><a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="http://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="http://www.google.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="http://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="http://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>    
+  </footer>
+</body>
+</html>
